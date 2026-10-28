@@ -1,0 +1,21 @@
+$ python3 case_01_student_grading_analytics/solution.py
+
+======================================================================
+ ACADEMIC PERFORMANCE & GRADE ANALYTICS REPORT
+======================================================================
+Student ID | Student Name     | GPA (4.0)  | Status
+----------------------------------------------------------------------
+STU101     | Aarav Sharma     | 3.85       | SATISFACTORY (Satisfactory Academic Progress)
+STU102     | Priya Nair       | 3.20       | SATISFACTORY (Satisfactory Academic Progress)
+STU103     | Rohan Mehta      | 1.60       | PROBATION (Failed Course(s): CS101)
+STU104     | Ananya Sen       | 4.00       | SATISFACTORY (Satisfactory Academic Progress)
+STU105     | Vikram Das       | 0.00       | PROBATION (Low GPA (0.00))
+----------------------------------------------------------------------
+ COHORT STATISTICAL METRICS:
+  • Total Students Evaluated : 5
+  • Mean Cohort GPA          : 2.53
+  • Median Cohort GPA        : 3.20
+  • Standard Deviation (σ)   : 1.54
+  • At-Risk Student Count    : 2
+======================================================================
+[Execution completed in 4.82ms with Exit Code: 0]

@@ -1,0 +1,15 @@
+$ python3 case_04_weather_station_telemetry/solution.py
+
+================================================================================
+ METEOROLOGICAL TELEMETRY & EXTREME WEATHER MONITOR
+================================================================================
+Time    | Temp(°C)  | Smooth(°C)  | Humidity  | Heat Index  | Alerts
+--------------------------------------------------------------------------------
+08:00   | 26.5      | 26.50       | 65.0    % | 26.5      °C | Normal Conditions
+09:00   | 29.0      | 27.75       | 68.0    % | 33.6      °C | Normal Conditions
+10:00   | 32.5      | 29.33       | 75.0    % | 43.8      °C | EXTREME HEAT DANGER (43.8°C)
+11:00   | 36.0      | 32.50       | 78.0    % | 54.8      °C | EXTREME HEAT DANGER (54.8°C)
+12:00   | [PACKET DROPPED - INVALID SENSOR TELEMETRY: Sensor bounds violation]
+13:00   | 34.0      | 34.17       | 70.0    % | 46.2      °C | GALE WARNING (68.0 km/h) | EXTREME HEAT DANGER (46.2°C)
+================================================================================
+[Execution completed in 4.15ms with Exit Code: 0]

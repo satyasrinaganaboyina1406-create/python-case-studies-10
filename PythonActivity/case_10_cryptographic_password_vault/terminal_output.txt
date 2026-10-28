@@ -1,0 +1,17 @@
+$ python3 case_10_cryptographic_password_vault/solution.py
+
+=====================================================================================
+ CRYPTOGRAPHIC PASSWORD ENTROPY & VAULT HASH AUDITOR
+=====================================================================================
+Password Sample              | Length | Entropy  | Rating               | Crack Time
+-------------------------------------------------------------------------------------
+password123                  | 11     | 14.0  b  | CRITICAL: COMPROMI...| Instantaneous (Known dictionary leak)
+Summer2026!                  | 11     | 72.1  b  | STRONG               | 1.5 hours
+Kx9#mQ$7vL@2pZ!w             | 16     | 104.9 b  | VERY STRONG (Vault...| 1.2e+12 centuries (Mathematically Infeasible)
+correct-horse-battery-sta... | 33     | 187.7 b  | VERY STRONG (Vault...| 2.1e+38 centuries (Mathematically Infeasible)
+-------------------------------------------------------------------------------------
+Cryptographic Storage Sample (Last Candidate):
+  • Random Salt (CSPRNG 16-bytes) : e7a3429fa05f41098bca12093d9e8751
+  • Salted SHA-256 Digest         : a9718f45be40192e21973cfbc9dc5e4827011d0b741cb30129a6e191910bc472
+=====================================================================================
+[Execution completed in 5.64ms with Exit Code: 0]

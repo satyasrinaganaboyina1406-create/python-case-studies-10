@@ -1,0 +1,18 @@
+$ python3 case_07_library_book_catalog_circulation/solution.py
+
+================================================================================
+ PUBLIC LIBRARY CATALOG & CIRCULATION AUDIT
+================================================================================
+1. Searching Catalog for keyword 'Algorithms'...
+   Found: [978-0262033848] 'Introduction to Algorithms' by Thomas H. Cormen - Status: AVAILABLE
+
+2. Meera checking out 'Introduction to Algorithms' on Day 1...
+   -> Successfully checked out 'Introduction to Algorithms'. Due on day 15.
+
+3. Simulating late return on Day 28 (13 days overdue)...
+   -> Title Returned   : Introduction to Algorithms
+   -> Overdue Days     : 13 days
+   -> Late Fine Levied : $4.75
+   -> Patron Outstanding Balance : $4.75
+================================================================================
+[Execution completed in 4.90ms with Exit Code: 0]

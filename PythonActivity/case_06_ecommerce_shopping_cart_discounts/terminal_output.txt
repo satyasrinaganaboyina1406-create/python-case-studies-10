@@ -1,0 +1,17 @@
+$ python3 case_06_ecommerce_shopping_cart_discounts/solution.py
+
+===========================================================================
+ E-COMMERCE CHECKOUT SUMMARY & TAX INVOICE
+===========================================================================
+Gross Merchandise Subtotal  : $  231.00
+Bulk Volume Savings (15%)   : -$   14.40
+VIP Member Tier (GOLD)      : -$   21.66
+Promotional Coupon (SAVE20) : -$   20.00
+---------------------------------------------------------------------------
+Net Taxable Subtotal        : $  174.94
+Shipping & Handling         : $    0.00 (FREE >= $75)
+Estimated Sales Tax (8.25%) : $   14.43
+===========================================================================
+TOTAL AMOUNT PAYABLE        : $  189.37
+===========================================================================
+[Execution completed in 3.88ms with Exit Code: 0]

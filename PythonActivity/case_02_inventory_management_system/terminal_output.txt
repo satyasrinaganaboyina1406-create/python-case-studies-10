@@ -1,0 +1,17 @@
+$ python3 case_02_inventory_management_system/solution.py
+
+================================================================================
+ INDUSTRIAL WAREHOUSE INVENTORY AUDIT & REORDER REPORT
+================================================================================
+SKU        | Item Name                | Stock  | ROP    | EOQ    | Status
+--------------------------------------------------------------------------------
+SKU-101    | Lithium Battery 5000mAh  | 45     | 65     | 273    | REORDER_TRIGGERED
+SKU-102    | OLED Display 1.3-inch    | 120    | 76     | 324    | OPTIMAL
+SKU-103    | ARM Cortex M4 MCU        | 12     | 60     | 328    | REORDER_TRIGGERED
+SKU-104    | Precision Resistor Kit   | 500    | 110    | 932    | OPTIMAL
+--------------------------------------------------------------------------------
+Executing sample customer dispatch on SKU-101 (Quantity: 35)...
+Updated SKU-101 Stock: 10 (Safety Threshold: 15)
+New Alert Status for SKU-101: CRITICAL_LOW -> EMERGENCY ORDER 273 UNITS
+================================================================================
+[Execution completed in 3.41ms with Exit Code: 0]

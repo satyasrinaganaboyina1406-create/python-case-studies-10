@@ -1,0 +1,18 @@
+$ python3 case_03_bank_account_transaction_engine/solution.py
+
+===========================================================================
+ AUTOMATED BANKING TRANSACTION LEDGER & FRAUD AUDITOR
+===========================================================================
+Alice Initial Balance : $1500.00 (Overdraft Limit: $500.00)
+Bob Initial Balance   : $250.00
+---------------------------------------------------------------------------
+1. Transferring $600.00 from Alice to Bob...
+   -> Alice Balance: $900.00 | Bob Balance: $850.00
+2. Alice executing overdraft withdrawal ($1,200.00)...
+   -> Alice Balance: $-335.00 (Overdraft fee applied)
+3. Testing Fraud Sentinel: Simulating rapid automated draining attacks...
+   -> Attempting 4th rapid transaction within 5 seconds...
+   -> [FRAUD SENTRY TRIPPED]: CRITICAL: Velocity surge detected on ACT-8820! Account locked.
+   -> Bob Account Lock Status: True
+===========================================================================
+[Execution completed in 6.12ms with Exit Code: 0]

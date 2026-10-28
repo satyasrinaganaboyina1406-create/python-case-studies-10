@@ -1,0 +1,13 @@
+$ python3 case_09_traffic_speed_monitoring_violation/solution.py
+
+=====================================================================================
+ AUTOMATED HIGHWAY SPEED RADAR & TRAFFIC VIOLATION AUDIT
+=====================================================================================
+Plate Number   | Raw   | Calib | Limit | Over  | Fine ($) | Points | Disposition
+-------------------------------------------------------------------------------------
+KA-01-AB-1234  | 102.5 | 99.5  | 100   | 0.0   | $0.00    | 0      | COMPLIANT (WITHIN TOLERANCE)
+DL-04-XY-9081  | 116.0 | 113.0 | 100   | 13.0  | $150.00  | 2      | MODERATE_SPEEDING
+MH-12-CD-5521  | 52.0  | 49.0  | 30    | 19.0  | $300.00  | 2      | MODERATE_SPEEDING
+AP-09-ZZ-9999  | 152.0 | 149.0 | 100   | 49.0  | $600.00  | 6      | RECKLESS_ENDANGERMENT [COURT SUMMONS]
+=====================================================================================
+[Execution completed in 4.75ms with Exit Code: 0]

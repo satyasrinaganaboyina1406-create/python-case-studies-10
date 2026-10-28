@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 940" width="640" height="940" style="background-color: #0b1120;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8" />
+    </marker>
+  </defs>
+  <!-- Background Header -->
+  <rect x="0" y="0" width="640" height="60" fill="#020617" />
+  <text x="20" y="36" fill="#38bdf8" font-size="15" font-weight="bold" font-family="system-ui, sans-serif">CASE STUDY 1: FLOWCHART SPECIFICATION</text>
+  <text x="20" y="52" fill="#64748b" font-size="11" font-family="system-ui, sans-serif">Student Academic Performance &amp; Grade Analytics System</text>
+  
+  <!-- Flowchart Diagram -->
+  <g transform="translate(40, 50)">
+    
+      <g>
+        <path d="M 250 57 L 250 83" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 137 L 250 165" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 235 L 250 283" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        <text x="260" y="216" fill="#fbbf24" font-size="10" font-family="monospace" font-weight="bold">Valid</text>
+      </g>
+    
+      <g>
+        <path d="M 250 337 L 250 373" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 427 L 250 455" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 340 490 L 420 490 L 420 463" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        <text x="345" y="506" fill="#fbbf24" font-size="10" font-family="monospace" font-weight="bold">Yes</text>
+      </g>
+    
+      <g>
+        <path d="M 250 525 L 250 553" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        <text x="260" y="506" fill="#fbbf24" font-size="10" font-family="monospace" font-weight="bold">No</text>
+      </g>
+    
+      <g>
+        <path d="M 420 517 L 250 633" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 607 L 250 633" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 687 L 250 713" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 767 L 250 793" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+    
+      <g id="node-1">
+        
+        <rect x="155" y="3" width="190" height="54" rx="26" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      
+        <text x="250" y="34" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">START</text>
+        
+      </g>
+    
+      <g id="node-2">
+        
+        <polygon points="169,83 345,83 331,137 155,137" fill="#14532d" stroke="#4ade80" stroke-width="2" />
+      
+        <text x="250" y="106" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Input Student &amp; Course Marks</text>
+        <text x="250" y="122" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">Credits, Raw Scores</text>
+      </g>
+    
+      <g id="node-3">
+        
+        <polygon points="250,165 340,200 250,235 160,200" fill="#1e1b4b" stroke="#818cf8" stroke-width="2" />
+      
+        <text x="250" y="196" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Are Scores Between 0 &amp; 100?</text>
+        <text x="250" y="212" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">Validation Check</text>
+      </g>
+    
+      <g id="node-4">
+        
+        <rect x="155" y="283" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="306" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Convert Marks to Grade Points</text>
+        <text x="250" y="322" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">A+ (4.0) to F (0.0)</text>
+      </g>
+    
+      <g id="node-5">
+        
+        <rect x="155" y="373" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="396" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Calculate Weighted GPA</text>
+        <text x="250" y="412" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">Sum(Pts*Cred) / Sum(Cred)</text>
+      </g>
+    
+      <g id="node-6">
+        
+        <polygon points="250,455 340,490 250,525 160,490" fill="#1e1b4b" stroke="#818cf8" stroke-width="2" />
+      
+        <text x="250" y="486" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Is GPA &lt; 2.0 or Has F?</text>
+        <text x="250" y="502" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">Academic Standing</text>
+      </g>
+    
+      <g id="node-7">
+        
+        <rect x="325" y="463" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="420" y="494" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Flag &quot;Academic Probation&quot;</text>
+        
+      </g>
+    
+      <g id="node-8">
+        
+        <rect x="155" y="553" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="584" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Flag &quot;Good Standing&quot;</text>
+        
+      </g>
+    
+      <g id="node-9">
+        
+        <rect x="155" y="633" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="656" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Calculate Class Stats &amp; Percentiles</text>
+        <text x="250" y="672" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">Mean, StdDev, Ranks</text>
+      </g>
+    
+      <g id="node-10">
+        
+        <polygon points="169,713 345,713 331,767 155,767" fill="#14532d" stroke="#4ade80" stroke-width="2" />
+      
+        <text x="250" y="744" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Display Analytics &amp; Roster Report</text>
+        
+      </g>
+    
+      <g id="node-11">
+        
+        <rect x="155" y="793" width="190" height="54" rx="26" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      
+        <text x="250" y="824" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">END</text>
+        
+      </g>
+    
+  </g>
+</svg>

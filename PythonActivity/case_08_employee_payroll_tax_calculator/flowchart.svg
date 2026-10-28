@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 920" width="640" height="920" style="background-color: #0b1120;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8" />
+    </marker>
+  </defs>
+  <!-- Background Header -->
+  <rect x="0" y="0" width="640" height="60" fill="#020617" />
+  <text x="20" y="36" fill="#38bdf8" font-size="15" font-weight="bold" font-family="system-ui, sans-serif">CASE STUDY 8: FLOWCHART SPECIFICATION</text>
+  <text x="20" y="52" fill="#64748b" font-size="11" font-family="system-ui, sans-serif">Corporate Payroll &amp; Progressive Income Tax Bracket Engine</text>
+  
+  <!-- Flowchart Diagram -->
+  <g transform="translate(40, 50)">
+    
+      <g>
+        <path d="M 250 57 L 250 83" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 137 L 250 165" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 340 200 L 440 200 L 440 173" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        <text x="355" y="216" fill="#fbbf24" font-size="10" font-family="monospace" font-weight="bold">Yes</text>
+      </g>
+    
+      <g>
+        <path d="M 250 235 L 250 263" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        <text x="260" y="216" fill="#fbbf24" font-size="10" font-family="monospace" font-weight="bold">No</text>
+      </g>
+    
+      <g>
+        <path d="M 440 227 L 250 353" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 317 L 250 353" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 407 L 250 443" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 497 L 250 533" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 587 L 250 613" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 667 L 250 693" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+      <g>
+        <path d="M 250 747 L 250 773" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)" />
+        
+      </g>
+    
+    
+      <g id="node-1">
+        
+        <rect x="155" y="3" width="190" height="54" rx="26" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      
+        <text x="250" y="34" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">START</text>
+        
+      </g>
+    
+      <g id="node-2">
+        
+        <polygon points="169,83 345,83 331,137 155,137" fill="#14532d" stroke="#4ade80" stroke-width="2" />
+      
+        <text x="250" y="106" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Input Hours Worked &amp; Hourly Wage</text>
+        <text x="250" y="122" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">Rate, 401k %, Health</text>
+      </g>
+    
+      <g id="node-3">
+        
+        <polygon points="250,165 340,200 250,235 160,200" fill="#1e1b4b" stroke="#818cf8" stroke-width="2" />
+      
+        <text x="250" y="196" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Are Hours Worked &gt; 40.0?</text>
+        <text x="250" y="212" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">Overtime Check</text>
+      </g>
+    
+      <g id="node-4">
+        
+        <rect x="345" y="173" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="440" y="204" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Gross = (40 * Rate) + (OT_Hours * Rate * 1.5)</text>
+        
+      </g>
+    
+      <g id="node-5">
+        
+        <rect x="155" y="263" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="294" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Gross = Hours * Rate</text>
+        
+      </g>
+    
+      <g id="node-6">
+        
+        <rect x="155" y="353" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="384" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Deduct Pre-Tax Health &amp; 401k Contribution</text>
+        
+      </g>
+    
+      <g id="node-7">
+        
+        <rect x="155" y="443" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="466" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Compute Marginal Progressive Tax Brackets</text>
+        <text x="250" y="482" fill="#94a3b8" font-size="10" font-family="monospace" text-anchor="middle">Iterate 10%, 12%, 22%, 24%</text>
+      </g>
+    
+      <g id="node-8">
+        
+        <rect x="155" y="533" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="564" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Compute FICA Taxes (Social Security + Medicare)</text>
+        
+      </g>
+    
+      <g id="node-9">
+        
+        <rect x="155" y="613" width="190" height="54" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="1.8" />
+      
+        <text x="250" y="644" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Reconcile Net Pay = Gross - Total Deductions</text>
+        
+      </g>
+    
+      <g id="node-10">
+        
+        <polygon points="169,693 345,693 331,747 155,747" fill="#14532d" stroke="#4ade80" stroke-width="2" />
+      
+        <text x="250" y="724" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">Render Official Pay Stub Statement</text>
+        
+      </g>
+    
+      <g id="node-11">
+        
+        <rect x="155" y="773" width="190" height="54" rx="26" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      
+        <text x="250" y="804" fill="#f8fafc" font-size="12" font-weight="600" font-family="system-ui, sans-serif" text-anchor="middle">END</text>
+        
+      </g>
+    
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "PythonActivity - 10 Python Case Studies & GitHub Hub",
+  "description": "Comprehensive academic portfolio of 10 Python case studies featuring problem statements, objectives, assumptions, algorithms, flowcharts, pseudocode, source code, test suites, terminal output screenshots, conclusions, and GitHub upload automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

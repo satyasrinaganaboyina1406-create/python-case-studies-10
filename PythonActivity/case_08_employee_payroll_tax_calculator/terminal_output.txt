@@ -1,0 +1,21 @@
+$ python3 case_08_employee_payroll_tax_calculator/solution.py
+
+===========================================================================
+ CORPORATE EMPLOYEE ITEMIZED PAY VOUCHER
+===========================================================================
+Employee Name : Sarah Jenkins (ID: EMP-4402)
+Hours Logged  : 48.0 hrs (Regular: 40.0, Overtime: 8.0 hrs)
+---------------------------------------------------------------------------
+Gross Earnings         : $  2210.00 (Includes $510.00 OT)
+Pre-Tax Deductions:
+  • Health Benefit     : -$   50.00
+  • 401(k) Plan (6%)   : -$  132.60
+Statutory Tax Deductions:
+  • Federal Income Tax : -$  265.50
+  • Social Security    : -$  137.02
+  • Medicare Tax       : -$   32.05
+---------------------------------------------------------------------------
+NET TAKE-HOME PAY      : $  1392.83
+Effective Tax Rate     : 19.66% of gross income
+===========================================================================
+[Execution completed in 4.31ms with Exit Code: 0]

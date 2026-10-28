@@ -1,0 +1,13 @@
+$ python3 case_05_healthcare_patient_vitals_triage/solution.py
+
+=====================================================================================
+ EMERGENCY ROOM CLINICAL TRIAGE & NEWS2 RISK STRATIFICATION
+=====================================================================================
+Priority  | Patient ID | Name             | NEWS2  | Risk Tier    | Clinical Protocol
+-------------------------------------------------------------------------------------
+P1 [EMERGENCY] | PT-902     | Elena Rostova    | 18     | HIGH_RISK    | Immediate Critical Care / Resus Response Required
+P2 [URGENT]    | PT-904     | David O'Connor   | 6      | MEDIUM_RISK  | Urgent Clinical Review (Within 30 Minutes)
+P3 [STANDARD]  | PT-903     | Kavita Reddy     | 3      | LOW_RISK     | Ward-level routine monitoring (4-6 Hours)
+P3 [STANDARD]  | PT-901     | James Wilson     | 0      | LOW_RISK     | Ward-level routine monitoring (4-6 Hours)
+=====================================================================================
+[Execution completed in 5.22ms with Exit Code: 0]
